@@ -43,7 +43,7 @@ arr.inject { |sum, n| sum + n }
 end
 
 def add_s (arr)
-[1,2].each_with_index.collect{|element, index| 
+arr.each_with_index.collect{|element, index| 
   if index != 1 
     element << "s"
   end
