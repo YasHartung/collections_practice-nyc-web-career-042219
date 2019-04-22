@@ -43,6 +43,8 @@ arr.inject { |sum, n| sum + n }
 end
 
 def add_s (arr)
-[1,2].each_with_index.collect{|element, index| }
-binding.pry
+[1,2].each_with_index.collect{|element, index| 
+  binding.pry
+}
+
 end
